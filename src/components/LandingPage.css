@@ -1,0 +1,165 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  margin-right: 0.2rem;
+  transform: translateY(3px);
+}
+
+.logo span {
+  margin-right: 0.5rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+.download-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main {
+  padding: 4rem 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  padding-bottom: 5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: #cccccc;
+  margin-bottom: 2rem;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.store-btn {
+  background-color: #121212;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.2rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.store-btn div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.store-btn p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.apple-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.store-btn span {
+  font-size: 0.8rem;
+}
+
+.hero-image {
+  flex: 1;
+  height: auto;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .nav a {
+    margin: 0 1rem;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .store-buttons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+}
