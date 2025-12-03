@@ -5,9 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #121212;
   color: white;
-  background: radial-gradient(ellipse at bottom right, rgba(180, 84, 0, 1), #121212 60%);
+  background: radial-gradient(ellipse at bottom right, rgba(255, 120, 0, .8), #121212 60%);
   min-height: 100vh;
 }
 
